@@ -1,0 +1,468 @@
+@font-face {
+    font-family: 'yekan';
+    src: url('../fonts/Yekan.eot');
+    src: url('../fonts/Yekan.eot?#iefix') format("embedded-opentype"), url('../fonts/Yekan.woff') format("woff"), url('../fonts/Yekan.ttf') format("truetype"), url('../fonts/Yekan.svg#BYekan') format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'BYekan';
+    src: url('../fonts/BYekan.eot?#') format('eot'), /* IE6–8 */ url('../fonts/BYekan.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/BYekan.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+html,body{
+    height: 100%;
+}
+a {
+    outline: 0 !important;
+}
+
+.ph-4 {
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.w-100 {
+    width: 100px;
+}
+
+.w-60 {
+    width: 60px;
+}
+
+.hide {
+    display: none;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-10 {
+    font-size: 10px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.ml-5 {
+    margin-left: 5px;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.ml-8 {
+    margin-left: 8px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.pv-2 {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.header-container {
+    background: #fffdae;
+    background: linear-gradient(#fffdae,#ffeb9d);
+    margin-left: -15px;
+    margin-right: -15px;
+    box-shadow: 0 2px 1px #fe0bac;
+    padding: 0 15px;
+}
+
+.chkbox label {
+    display: inline-block;
+    position: relative;
+    top: -3px;
+    margin-right: 5px;
+}
+
+.ico-tbl-operation {
+    font-size: 25px;
+    padding-left: 3px;
+    padding-right: 3px;
+    cursor: pointer;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.ico-tbl-delete {
+    color: #ff5b62;
+}
+
+.ico-tbl-delete:hover {
+    color: #ff0008;
+}
+
+.ico-tbl-edit {
+    color: #5eb5de;
+}
+
+.ico-tbl-edit:hover {
+    color: blue;
+}
+
+body {
+    font-size: 13px;
+    font-family: "yekan", "byekan";
+    
+    background: #faf2ff;
+}
+
+.form-group label {
+    margin-bottom: 8px;
+}
+
+.main-wrapper {
+    padding: 20px;
+}
+
+.panel-custom {
+    border: 1px solid #a7adb3;
+}
+
+.panel-custom > .panel-footer {
+    background-color: #e3eaf9;
+}
+
+.panel-custom > .panel-heading {
+    color: #fff8c7;
+    background-color: #e3eaf9;
+    border-color: #a7adb3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "yekan", "byekan";
+}
+
+@keyframes login_animate {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+#login-box {
+    margin-top: 100px;
+    animation-name: login_animate;
+    animation-duration: 1s;
+}
+
+#login-box .panel {
+    box-shadow: 5px 5px 5px #b6b6b6;
+}
+
+#login-box h3, #login-box h5 {
+    color: #0d7272;
+}
+
+#login-box h5 {
+    margin-bottom: 10px;
+}
+
+#login-box h3 {
+    font-family: "BYekan";
+    margin: 15px;
+    font-size: 21px;
+}
+
+#login-box input.form-control {
+    height: 45px;
+}
+
+.header {
+    height: 65px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+.logo .logo-text h1 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.logo .logo-text p {
+    font-size: 11px;
+}
+
+.logo .logo-text {
+    padding: 10px 10px 0;
+}
+
+.user-menu {
+    float: left;
+    margin-bottom: 0;
+}
+
+.user-menu li {
+    float: left;
+}
+
+.user-menu li a {
+    float: left;
+    line-height: 50px;
+    font-size: 25px;
+    padding: 5px 10px;
+}
+
+.user-menu .log-out:hover {
+    color: #d42724;
+}
+
+.user-menu .user-profile:hover {
+    color: #3a36e4;
+}
+
+.user-menu .home:hover {
+    color: #359c36;
+}
+
+.main-menu .mnu-group ul {
+    display: none;
+}
+
+.wrapper {
+    padding: 15px;
+    margin: 65px auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.wrapper .sidebar-right {
+    position: fixed;
+    width: 250px;
+    right: 20px;
+    top: 80px;
+}
+
+.wrapper .main-content {
+    margin-top: 5px;
+    /*background: #fff;
+    border: 1px solid #726c6c;*/
+    margin-right: 270px;
+}
+
+.main-content .main-head {
+    background-color: #ffcedf;
+    background: linear-gradient(#fffdae,#ffeb9d);
+}
+
+.main-content .main-head h3 {
+    border-bottom: 2px solid #761c19;
+    padding: 5px;
+    font-size: 20px;
+    line-height: 25px;
+    color: #093284;
+}
+
+.sidebar-right {
+    padding: 5px;
+}
+
+.main-menu {
+    width: 100%;
+}
+
+.main-menu .mnu-group {
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    background: #fff;
+}
+
+.main-menu .mnu-group:last-child {
+    margin-bottom: 0;
+}
+
+.main-menu .mnu-group .head {
+    background: #2f2aec;
+    cursor: pointer;
+    color: #242424;
+    font-size: 15px;
+    padding: 10px 8px 10px 0;
+    border-bottom: 1px solid #ccc;
+    background: linear-gradient(#fffdae,#ffeb9d);
+
+}
+
+.main-menu .mnu-group ul {
+    padding: 5px 10px;
+}
+
+.main-menu .mnu-group ul li a {
+    display: block;
+    font-size: 14px;
+    line-height: 25px;
+    color: #182480;
+}
+
+.main-menu .mnu-group ul li a:hover {
+    color: #449d44;
+}
+
+.save-box {
+    padding: 10px;
+    border: 1px solid #c0c4d4;
+    margin-top: 15px;
+    border-radius: 3px;
+    box-shadow: rgb(204, 204, 204) 2px 2px 1px;
+}
+
+.table thead tr {
+    background: #b0ceff;
+}
+tr.my-color{
+    background-color: #fcc9b9 !important;
+    color:#000;
+}
+.table th {
+    box-shadow: 2px 0 3px #9cb1cc;
+    font-weight: bold;
+}
+
+.table td, .table th {
+    text-align: center;
+    vertical-align: middle !important;
+}
+
+.table td {
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+}
+
+.accordion .group {
+    margin-bottom: 3px;
+}
+
+.accordion .group > div {
+    display: none;
+}
+
+.accordion .group > h3 {
+    font-size: 15px;
+    line-height: 30px;
+    background: #f4f4fc;
+    padding-right: 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+.accordion .group > div {
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.content-header {
+    border-bottom: 1px solid #bdadc6;;
+    margin-bottom: 15px;
+}
+
+.content-header h5 {
+    position: relative;
+    top: 5px;
+    background: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    font-size: 14px;
+    color: #b88bd1;
+}
+
+div[data-name="md-persiandatetimepicker"] table td {
+    font-family: 'yekan';
+}
+
+#userInfoModal {
+    position: absolute;
+    top: 46px;
+    left: 0px;
+    width: 280px;
+    display: none;
+    color: #000;
+    z-index: 2;
+    border: 1px solid #337ab7;;
+    border-radius: 3px 3px 0 0;
+}
+
+.user-profile:hover #userInfoModal {
+    display: block;
+}
+
+#userInfoModal .us-header {
+    height: 30px;
+    padding: 0 10px;
+}
+
+#userInfoModal .us-body {
+    padding: 10px;
+    background: #fff !important;
+}
+.ico-redo{
+    
+    width:30px;
+    height: 30px;
+    display: inline-block;
+    overflow: hidden;
+    cursor:pointer;
+}
+
+
+.ui-tooltip{
+    background-color: #d5e5e8;
+}
+.ui-tooltip-content {
+    font-size:10pt;
+    font-family:'BYekan';
+    text-align: justify;
+}
+.bg-required{
+    background-color: #fdfd0c;
+    direction: ltr;
+    text-align: right;
+}
